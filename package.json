@@ -1,0 +1,27 @@
+{
+  "name": "san-fransisco-dark-theme",
+  "displayName": "San Fransisco Dark",
+  "publisher": "BlackFruit",
+  "description": "SF Mono dark theme",
+  "typesVersions": {},
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndrewTake/San-Fransisco-Dark-Theme"
+  },
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "San Fransisco Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/San Fransisco Dark Theme-color-theme.json"
+      }
+    ]
+  }
+}
